@@ -25,7 +25,7 @@ set cpo&vim
 let g:EasyMotion_keys               = get(g:,
     \ 'EasyMotion_keys', 'qwertyuiopasdfghjklzxcvbnm')
     " \ 'EasyMotion_keys', 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')
-let g:EasyMotion_do_mapping         = get(g: , 'EasyMotion_do_mapping'         , 1)
+let g:EasyMotion_do_mapping         = get(g: , 'EasyMotion_do_mapping'         , 0)
 let g:EasyMotion_do_shade           = get(g: , 'EasyMotion_do_shade'           , 1)
 let g:EasyMotion_grouping           = get(g: , 'EasyMotion_grouping'           , 1)
 let g:EasyMotion_startofline        = get(g: , 'EasyMotion_startofline'        , 1)
@@ -43,7 +43,7 @@ let g:EasyMotion_use_regexp         = get(g: , 'EasyMotion_use_regexp'         ,
 let g:EasyMotion_add_search_history = get(g: , 'EasyMotion_add_search_history' , 1)
 let g:EasyMotion_off_screen_search  = get(g: , 'EasyMotion_off_screen_search'  , 1)
 let g:EasyMotion_force_csapprox     = get(g: , 'EasyMotion_force_csapprox'     , 0)
-let g:EasyMotion_show_prompt        = get(g: , 'EasyMotion_show_prompt'        , 1)
+let g:EasyMotion_show_prompt        = get(g: , 'EasyMotion_show_prompt'        , 0)
 let g:EasyMotion_verbose            = get(g: , 'EasyMotion_verbose'            , 1)
 let g:EasyMotion_prompt             =
     \ get(g: , 'EasyMotion_prompt' , 'Search for {n} character(s): ')
